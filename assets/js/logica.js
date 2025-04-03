@@ -1,5 +1,5 @@
 // INICIO
-var numero = parseInt(prompt("¡Hola! Soy Eva, tu asistente virtual del Servicio al Cliente de Mentel.\nEstoy aquí para ayudarte en lo que necesites.\nEscribe el número de la opción que buscas:\n1.- Boletas y Pagos\n2.- Senal y Llamadas\n3.- Oferta Comercial\n4.- Otras Consultas"));
+var numero = parseInt(prompt("¡Hola! Soy Eva, tu asistente virtual del Servicio al Cliente.\nEstoy aquí para ayudarte en lo que necesites.\nEscribe el número de la opción que buscas:\n1.- Boletas y Pagos\n2.- Señal y Llamadas\n3.- Oferta Comercial\n4.- Otras Consultas"));
 
 // SWITCH CASE
 switch(numero) {
@@ -18,15 +18,15 @@ switch(numero) {
 
 
      case 2:
-           // SENAL Y LLAMADAS
-           numero = parseInt(prompt("Has seleccionado 'Senal y Llamadas'. Elige una opción:\n1.- Problemas con la senal\n2.- Problemas con las llamadas"));
+           // SEÑAL Y LLAMADAS
+           numero = parseInt(prompt("Has seleccionado 'Señal y Llamadas'. Elige una opción:\n1.- Problemas con la señal\n2.- Problemas con las llamadas"));
     
           if (numero === 1) {
             prompt("A continuación, escriba su solicitud:");
-            alert("Su solicitud ha sido ingresada con éxito");
+            alert("Su solicitud ha sido ingresada con éxito.");
          }else if (numero === 2) {
             prompt("A continuación, escriba su solicitud:"); // editar caso dos, para que se ingrese solicitud
-            alert("Su solicitud ha sido ingresada con éxito");
+            alert("Su solicitud ha sido ingresada con éxito.");
          }else{
             alert("Opción no válida. Por favor ingrese 1 o 2.");
             }
@@ -34,7 +34,7 @@ switch(numero) {
 
     case 3:
          // OFERTAS COMERCIALES
-         answer = prompt("Mentel tiene una oferta acorde a tus necesidades.\nIngrese'SÍ' para que te contacte un ejecutivo, \nDe lo contrario ingrese 'NO'");
+         answer = prompt("Tenemos una oferta acorde a tus necesidades.\nIngrese 'SÍ' para que te contacte un ejecutivo, \nDe lo contrario ingrese 'NO'");
         
          if (answer === "SÍ") { // con tilde o sin o minusculas
              alert("Un ejecutivo se contactará con usted.");
